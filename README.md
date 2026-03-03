@@ -89,6 +89,7 @@ src/
         ParenthesesValidatorTest.java
         RpnEvaluatorTest.java
         FullCalculatorTest.java
+```
 
 ## Тестирование
 
