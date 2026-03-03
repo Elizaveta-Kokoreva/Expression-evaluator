@@ -51,7 +51,7 @@ public class ExpressionSyntaxValidator {
                 throw new RuntimeException("Два оператора подряд: " + prev + curr);
             }
 
-            // 3. Число сразу за числом — ошибка (у нас нет поддержки слияния)
+            // 3. Число сразу за числом — ошибка (нет поддержки слияния)
             if (prev != null && isNumber(prev) && isNumber(curr)) {
                 throw new RuntimeException("Два числа подряд: " + prev + " " + curr);
             }
